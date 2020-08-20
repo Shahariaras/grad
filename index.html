@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <title>
+
+    </title>
+<body>
+
+<h1 id="rr"></h1>
+
+
+
+<script>
+
+var name = prompt('Enter your name')
+var Mark = prompt('Enter your mark')
+
+
+if (Mark>=80 && Mark<=100){
+    document.write(name+"="+"A+")
+}
+else if (Mark>=70 && Mark<=79){
+    document.getElementById("rr").innerHTML = (name+"="+"A")
+}
+else if (Mark>=60 && Mark<=69){
+    document.write(name+"="+"B+")
+}
+else if (Mark>=50 && Mark<=59){
+    document.write(name+"="+"B")
+}
+else if (Mark>=40 && Mark<=49){
+    document.write(name+"="+"B-")
+}
+else if (Mark>=30 && Mark<=39){
+    document.write(name+"="+"C")
+}
+else if (Mark>=20 && Mark<=29){
+    document.write(name+"="+"D")
+}
+else if (Mark>=00 && Mark<=19){
+    document.write(name+"="+"Faild")
+}
+
+</script>
+
+</body>
+</html>
